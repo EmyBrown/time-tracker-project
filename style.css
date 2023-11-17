@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700;9..40,800&family=Rubik:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #0E1323;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+    font-family: 'Rubik', sans-serif;
+}
+
+ .container{
+    width:90%;
+    margin-top: 10rem;
+    display: flex;
+    margin-bottom: 10rem;
+    
+ }
+
+ .profile-card{
+    background: #1C204B;
+    border-radius: 0.9375rem;
+    height: max-content;
+    
+ }
+
+ section .profile{
+    border-radius: 0.9375rem;
+    background: #5747EA;
+    padding: 2.81rem 5.31rem 5rem 2rem;
+ }
+
+ .profile-picture{
+    width: 4.875rem;
+    height: 4.875rem;
+    border: #FFF solid 3px;
+    border-radius: 40.5rem;
+ }
+
+ .report{
+    color: #BBC0FF;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin-top: 2.69rem;
+ }
+
+ .name{
+    font-size: 2.5rem;
+    font-weight: 300;
+    width:8.625rem;
+ }
+
+ .timeframe{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    height:6.625rem;
+    justify-content: space-between;
+    margin-top: 1.63rem;
+    margin-bottom: 2.06rem;
+    color: #7078C9;
+ }
+ 
+ .timeframe p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    cursor:default;
+ }
+
+ .timeframe p:active{
+   cursor: pointer;
+}
+
+.card-container{
+   margin-left: 1.88rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 1.88rem;
+}
+
+.activity{
+   background: #1C204B;
+   padding: 1.81rem 2.19rem 2rem 1.87rem;
+   border-radius: 0.9375rem;
+   margin-top: -2.7rem;
+}
+.image-container{
+   height: 5.81rem;
+   position:relative;
+   z-index: -1; 
+}
+.top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 1.125rem;
+   font-weight: 500;
+}
+.mid h1{
+   margin-top: 1.81rem;
+   font-size: 3.5rem;
+   font-weight: 300;
+}
+.mid p{
+   color: #BBC0FF;
+   font-size: 0.9375rem;
+   font-weight: 400;
+}
+
+@media screen and (min-width:320px) and (max-width:480px)
+ {
+   .container{
+      width:90%;
+      display: block;
+      margin-top: 5.06rem;
+   }
+   .profile-card{
+      border:  3px;
+   }
+   section .profile{
+      padding:2.19rem 2.56rem 2.56rem 2rem;
+      justify-content: space-between;
+   }
+   .profile-picture{
+      width: 4rem;
+      height: 4rem;
+   }
+   .profile p{
+      margin-left: 5rem;
+
+   }
+   .report{
+      margin-top: 0;
+      margin-top: -3.55rem;
+   }
+   .name{
+      font-size: 1.5rem;
+      width: 12.625rem;
+   }
+   .profile p{
+      display: flex;
+      flex-direction: row;
+   }
+   .timeframe{
+      flex-direction: row;
+      height: 3.38rem;
+      justify-content: space-around;
+      padding-left: 0;
+      margin-bottom: 3.06rem;
+
+   }
+   .card-container{
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1.5rem;
+   }
+   .activity{
+      padding: 1.75rem 1.5rem 1.75rem 1.5rem;
+      margin-top: -2.55rem;
+   }
+   .card{
+      width: 100%;
+   }
+   .image {
+      width:100%;
+      height:11rem;
+   }
+   .mid{
+      display: flex;
+      justify-content: space-between;
+      
+      align-items: center;
+   }
+   .mid h1{
+      font-size: 2rem;
+      margin-top: 0.5rem;
+   }
+}
+
+@media screen and (min-width:480px) and (max-width:840px){
+  .container{
+   width:90%;
+  }
+}
